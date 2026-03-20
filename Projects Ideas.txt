@@ -1,0 +1,113 @@
+Projects Ideas:
+
+-CLI (command line interface) 
+with api requests to get info on a subject:
+stocks, weather, etc
+[python]
+
+-A "Boids" Flocking Simulation
+
+
+- Brain simulation:
+
+Neuron cell simulation:
+
+Intakers:
+-Voltage Gate 
+(Certain voltage) (Numerical,quantitative)
+single ion (sodium,potassium)
+open (when membrane charge reaches threshold it opens)
+closed (at rest)
+inactivated (during certain fases so it doesn't fire again or the wrong way)
+
+when reaches
+
+-Ligand Gate (type of ion) (Type of info)
+
+-Mechanic Gate (Length,Pressure) (length of message, concentration)
+
+
+receiving ion changes the potential of the membrane
+[Graded Potentials] small changes (size, positive or negation,transient, not voltage gate typically)
+when change occurs the cell rushes to reach resting value
+
+outakers:
+
+Sodium-Potassium pump (gives 3 sodium, takes 2 potassium)
+balances charge
+
+when the change in the cell passes a treshhold this triggers an axon potensial down the cell
+this big change also triggers voltage sodium gates to receive more ions increasing charge of cell past 0 and depolorizing it from negative to positive.
+It overshoots and the sodium channels closes and potassium opens releasing it out of the cell repolorizing it.
+
+sometimes this hyper polorizes closing the potassium voltage channel, and the S-P pump brings it at rest again.
+
+when repolarization is happening the neuron cant fire again.
+when hyperpoloriziation is happening is harder to fire again.
+
+when a neuron fires its either a yes or no.
+what changes in firing is frequency (exp shar pain fires multiple times quickly, wind fires slowly)
+
+some neurons fire faster than others (mylenin sheaths or olygodendrosites help with this)
+for each sheaths the shot is faster
+
+Every neuron has a resting negative value
+when a small stimulus hits it seeks to rest again
+when it passes a threshold it fires with action potential, it depolarizes becoming positive, then repolarizes becoming negative and then hyperpolarizing to reach rest again.
+
+how to activate a neuron:
+-high frequency on cell sending info increases charge on receptor gap faster than the cell can clear and this triggers it
+-some cells are set to fire more vessels(ion packages) making the next cell fire more easily
+-some cells dendrons(receivers) are connected to many other cells(hundreds) meaning if many fire it will trigger
+
+EPSPs and IPSPs
+we can have neurons that inhibit, bring negative charge to synapse or ones the excite, bring positive charge to synapse. We can also have neurons that bring both
+Excitatory 
+Inhibitory 
+since neurons receive info from many  other neurons thes negative+positive charges add up to either trigger a neuron axium potetial or no.
+
+Synaptic Plasticity:
+if 2 nerons communicate often the receiving cell (activates coincidence receptors, that receives magnesium to call the cell to add more Ligand-Gated receptors, and tells dna to reproduce more dendrides at that connection point) so it receives more neuro transmitters(ions) when activated.
+Also the firing cell fires more neurotransmitters(ions)
+the magnitude of the change in charge by that neuron firing increases, increasing the wheight of that communication 
+
+
+4-core CPU:
+200million ops per milisecond
+
+brain:
+100billion ops per milisecond(conscious brain)
+
+
+
+
+
+
+
+
+
+
+
+-----------------------
+Spiking Neural Network (SNN)
+
+So basically we could equate a neuron to a node. The node rests at -1, the neuron is back-connected to other neurons, when they trigger they add the wwhy deight of their connection to this neuron, if it passes 0 it triggers and shoots at the neurons its front-connected to. every time a neuron shoots and that triggers a neuron to shoot that causes the weight of the connection to increase
+
++ Bit-Shift every "tick" to leak percentage
+
++ event driven updates
+Priority Queue
+
++Delay
+neuron cant fire while
+
+
+=
+2d array to store
+Bit-Packing
+Sparse Matrix
+Symetry
+Ragged Matrix (Sparse Row)
+Hybrid: 
+|event-driven for more used
+|time-stepped
