@@ -1,0 +1,8 @@
+[
+{
+  "directory": "D:/Code/C++/SNN-GPU/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -g -std=gnu++17 -o CMakeFiles\\snn_app.dir\\main.cpp.obj -c D:\\Code\\C++\\SNN-GPU\\main.cpp",
+  "file": "D:/Code/C++/SNN-GPU/main.cpp",
+  "output": "CMakeFiles/snn_app.dir/main.cpp.obj"
+}
+]

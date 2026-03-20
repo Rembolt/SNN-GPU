@@ -1,3 +1,5 @@
+Ignore this file for context.
+
 Projects Ideas:
 
 -CLI (command line interface) 
@@ -9,7 +11,6 @@ stocks, weather, etc
 
 
 - Brain simulation:
-
 Neuron cell simulation:
 
 Intakers:
