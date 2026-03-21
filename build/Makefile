@@ -128,29 +128,53 @@ snn_app/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\snn_app.dir\build.make CMakeFiles/snn_app.dir/build
 .PHONY : snn_app/fast
 
-main.obj: main.cpp.obj
-.PHONY : main.obj
+app/CLBoilerplate.obj: app/CLBoilerplate.cpp.obj
+.PHONY : app/CLBoilerplate.obj
 
 # target to build an object file
-main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\snn_app.dir\build.make CMakeFiles/snn_app.dir/main.cpp.obj
-.PHONY : main.cpp.obj
+app/CLBoilerplate.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\snn_app.dir\build.make CMakeFiles/snn_app.dir/app/CLBoilerplate.cpp.obj
+.PHONY : app/CLBoilerplate.cpp.obj
 
-main.i: main.cpp.i
-.PHONY : main.i
+app/CLBoilerplate.i: app/CLBoilerplate.cpp.i
+.PHONY : app/CLBoilerplate.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\snn_app.dir\build.make CMakeFiles/snn_app.dir/main.cpp.i
-.PHONY : main.cpp.i
+app/CLBoilerplate.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\snn_app.dir\build.make CMakeFiles/snn_app.dir/app/CLBoilerplate.cpp.i
+.PHONY : app/CLBoilerplate.cpp.i
 
-main.s: main.cpp.s
-.PHONY : main.s
+app/CLBoilerplate.s: app/CLBoilerplate.cpp.s
+.PHONY : app/CLBoilerplate.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\snn_app.dir\build.make CMakeFiles/snn_app.dir/main.cpp.s
-.PHONY : main.cpp.s
+app/CLBoilerplate.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\snn_app.dir\build.make CMakeFiles/snn_app.dir/app/CLBoilerplate.cpp.s
+.PHONY : app/CLBoilerplate.cpp.s
+
+app/main.obj: app/main.cpp.obj
+.PHONY : app/main.obj
+
+# target to build an object file
+app/main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\snn_app.dir\build.make CMakeFiles/snn_app.dir/app/main.cpp.obj
+.PHONY : app/main.cpp.obj
+
+app/main.i: app/main.cpp.i
+.PHONY : app/main.i
+
+# target to preprocess a source file
+app/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\snn_app.dir\build.make CMakeFiles/snn_app.dir/app/main.cpp.i
+.PHONY : app/main.cpp.i
+
+app/main.s: app/main.cpp.s
+.PHONY : app/main.s
+
+# target to generate assembly for a file
+app/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\snn_app.dir\build.make CMakeFiles/snn_app.dir/app/main.cpp.s
+.PHONY : app/main.cpp.s
 
 # Help Target
 help:
@@ -161,9 +185,12 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... snn_app
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
+	@echo ... app/CLBoilerplate.obj
+	@echo ... app/CLBoilerplate.i
+	@echo ... app/CLBoilerplate.s
+	@echo ... app/main.obj
+	@echo ... app/main.i
+	@echo ... app/main.s
 .PHONY : help
 
 

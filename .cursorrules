@@ -1,0 +1,2 @@
+When writing OpenCL kernels, prioritize Integer math and Bit-shifting over floating point. 
+Ensure all memory buffers are aligned to 16 bytes for high-performance GPU access.

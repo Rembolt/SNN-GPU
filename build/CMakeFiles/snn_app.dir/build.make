@@ -71,34 +71,52 @@ include CMakeFiles/snn_app.dir/flags.make
 CMakeFiles/snn_app.dir/codegen:
 .PHONY : CMakeFiles/snn_app.dir/codegen
 
-CMakeFiles/snn_app.dir/main.cpp.obj: CMakeFiles/snn_app.dir/flags.make
-CMakeFiles/snn_app.dir/main.cpp.obj: D:/Code/C++/SNN-GPU/main.cpp
-CMakeFiles/snn_app.dir/main.cpp.obj: CMakeFiles/snn_app.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Code\C++\SNN-GPU\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/snn_app.dir/main.cpp.obj"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/snn_app.dir/main.cpp.obj -MF CMakeFiles\snn_app.dir\main.cpp.obj.d -o CMakeFiles\snn_app.dir\main.cpp.obj -c D:\Code\C++\SNN-GPU\main.cpp
+CMakeFiles/snn_app.dir/app/main.cpp.obj: CMakeFiles/snn_app.dir/flags.make
+CMakeFiles/snn_app.dir/app/main.cpp.obj: CMakeFiles/snn_app.dir/includes_CXX.rsp
+CMakeFiles/snn_app.dir/app/main.cpp.obj: D:/Code/C++/SNN-GPU/app/main.cpp
+CMakeFiles/snn_app.dir/app/main.cpp.obj: CMakeFiles/snn_app.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Code\C++\SNN-GPU\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/snn_app.dir/app/main.cpp.obj"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/snn_app.dir/app/main.cpp.obj -MF CMakeFiles\snn_app.dir\app\main.cpp.obj.d -o CMakeFiles\snn_app.dir\app\main.cpp.obj -c D:\Code\C++\SNN-GPU\app\main.cpp
 
-CMakeFiles/snn_app.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/snn_app.dir/main.cpp.i"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Code\C++\SNN-GPU\main.cpp > CMakeFiles\snn_app.dir\main.cpp.i
+CMakeFiles/snn_app.dir/app/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/snn_app.dir/app/main.cpp.i"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Code\C++\SNN-GPU\app\main.cpp > CMakeFiles\snn_app.dir\app\main.cpp.i
 
-CMakeFiles/snn_app.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/snn_app.dir/main.cpp.s"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Code\C++\SNN-GPU\main.cpp -o CMakeFiles\snn_app.dir\main.cpp.s
+CMakeFiles/snn_app.dir/app/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/snn_app.dir/app/main.cpp.s"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Code\C++\SNN-GPU\app\main.cpp -o CMakeFiles\snn_app.dir\app\main.cpp.s
+
+CMakeFiles/snn_app.dir/app/CLBoilerplate.cpp.obj: CMakeFiles/snn_app.dir/flags.make
+CMakeFiles/snn_app.dir/app/CLBoilerplate.cpp.obj: CMakeFiles/snn_app.dir/includes_CXX.rsp
+CMakeFiles/snn_app.dir/app/CLBoilerplate.cpp.obj: D:/Code/C++/SNN-GPU/app/CLBoilerplate.cpp
+CMakeFiles/snn_app.dir/app/CLBoilerplate.cpp.obj: CMakeFiles/snn_app.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Code\C++\SNN-GPU\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/snn_app.dir/app/CLBoilerplate.cpp.obj"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/snn_app.dir/app/CLBoilerplate.cpp.obj -MF CMakeFiles\snn_app.dir\app\CLBoilerplate.cpp.obj.d -o CMakeFiles\snn_app.dir\app\CLBoilerplate.cpp.obj -c D:\Code\C++\SNN-GPU\app\CLBoilerplate.cpp
+
+CMakeFiles/snn_app.dir/app/CLBoilerplate.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/snn_app.dir/app/CLBoilerplate.cpp.i"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Code\C++\SNN-GPU\app\CLBoilerplate.cpp > CMakeFiles\snn_app.dir\app\CLBoilerplate.cpp.i
+
+CMakeFiles/snn_app.dir/app/CLBoilerplate.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/snn_app.dir/app/CLBoilerplate.cpp.s"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Code\C++\SNN-GPU\app\CLBoilerplate.cpp -o CMakeFiles\snn_app.dir\app\CLBoilerplate.cpp.s
 
 # Object files for target snn_app
 snn_app_OBJECTS = \
-"CMakeFiles/snn_app.dir/main.cpp.obj"
+"CMakeFiles/snn_app.dir/app/main.cpp.obj" \
+"CMakeFiles/snn_app.dir/app/CLBoilerplate.cpp.obj"
 
 # External object files for target snn_app
 snn_app_EXTERNAL_OBJECTS =
 
-snn_app.exe: CMakeFiles/snn_app.dir/main.cpp.obj
+snn_app.exe: CMakeFiles/snn_app.dir/app/main.cpp.obj
+snn_app.exe: CMakeFiles/snn_app.dir/app/CLBoilerplate.cpp.obj
 snn_app.exe: CMakeFiles/snn_app.dir/build.make
 snn_app.exe: C:/msys64/mingw64/lib/libOpenCL.dll.a
 snn_app.exe: CMakeFiles/snn_app.dir/linkLibs.rsp
 snn_app.exe: CMakeFiles/snn_app.dir/objects1.rsp
 snn_app.exe: CMakeFiles/snn_app.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\Code\C++\SNN-GPU\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable snn_app.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\Code\C++\SNN-GPU\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable snn_app.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\snn_app.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

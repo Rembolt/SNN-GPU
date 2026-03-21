@@ -84,12 +84,12 @@ clean: CMakeFiles/snn_app.dir/clean
 CMakeFiles/snn_app.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\snn_app.dir\build.make CMakeFiles/snn_app.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\snn_app.dir\build.make CMakeFiles/snn_app.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\Code\C++\SNN-GPU\build\CMakeFiles --progress-num=1,2 "Built target snn_app"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\Code\C++\SNN-GPU\build\CMakeFiles --progress-num=1,2,3 "Built target snn_app"
 .PHONY : CMakeFiles/snn_app.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/snn_app.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Code\C++\SNN-GPU\build\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Code\C++\SNN-GPU\build\CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/snn_app.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\Code\C++\SNN-GPU\build\CMakeFiles 0
 .PHONY : CMakeFiles/snn_app.dir/rule
@@ -101,7 +101,7 @@ snn_app: CMakeFiles/snn_app.dir/rule
 # codegen rule for target.
 CMakeFiles/snn_app.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\snn_app.dir\build.make CMakeFiles/snn_app.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\Code\C++\SNN-GPU\build\CMakeFiles --progress-num=1,2 "Finished codegen for target snn_app"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\Code\C++\SNN-GPU\build\CMakeFiles --progress-num=1,2,3 "Finished codegen for target snn_app"
 .PHONY : CMakeFiles/snn_app.dir/codegen
 
 # clean rule for target.

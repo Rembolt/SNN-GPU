@@ -1,8 +1,14 @@
 [
 {
   "directory": "D:/Code/C++/SNN-GPU/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe   -g -std=gnu++17 -o CMakeFiles\\snn_app.dir\\main.cpp.obj -c D:\\Code\\C++\\SNN-GPU\\main.cpp",
-  "file": "D:/Code/C++/SNN-GPU/main.cpp",
-  "output": "CMakeFiles/snn_app.dir/main.cpp.obj"
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/snn_app.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\snn_app.dir\\app\\main.cpp.obj -c D:\\Code\\C++\\SNN-GPU\\app\\main.cpp",
+  "file": "D:/Code/C++/SNN-GPU/app/main.cpp",
+  "output": "CMakeFiles/snn_app.dir/app/main.cpp.obj"
+},
+{
+  "directory": "D:/Code/C++/SNN-GPU/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/snn_app.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\snn_app.dir\\app\\CLBoilerplate.cpp.obj -c D:\\Code\\C++\\SNN-GPU\\app\\CLBoilerplate.cpp",
+  "file": "D:/Code/C++/SNN-GPU/app/CLBoilerplate.cpp",
+  "output": "CMakeFiles/snn_app.dir/app/CLBoilerplate.cpp.obj"
 }
 ]

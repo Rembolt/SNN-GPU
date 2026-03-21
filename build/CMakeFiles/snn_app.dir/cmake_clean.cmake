@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/snn_app.dir/main.cpp.obj"
-  "CMakeFiles/snn_app.dir/main.cpp.obj.d"
+  "CMakeFiles/snn_app.dir/app/CLBoilerplate.cpp.obj"
+  "CMakeFiles/snn_app.dir/app/CLBoilerplate.cpp.obj.d"
+  "CMakeFiles/snn_app.dir/app/main.cpp.obj"
+  "CMakeFiles/snn_app.dir/app/main.cpp.obj.d"
   "libsnn_app.dll.a"
   "snn_app.exe"
   "snn_app.exe.manifest"

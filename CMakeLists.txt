@@ -9,7 +9,9 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 # This will now work because pacman put the files in the right place
 find_package(OpenCL REQUIRED)
 
-add_executable(snn_app main.cpp)
+add_executable(snn_app app/main.cpp app/CLBoilerplate.cpp)
+
+target_include_directories(snn_app PRIVATE ${CMAKE_CURRENT_SOURCE_DIR}/app)
 
 # Link the OpenCL library found by the system
 target_link_libraries(snn_app PRIVATE OpenCL::OpenCL)
